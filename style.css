@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 .main{
     background-image: url(https://i.pinimg.com/originals/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg);
@@ -97,6 +98,7 @@ nav button{
     background-color: rgba(23,23,23,0.7);
     color: white;
     font-size: 14px;
+    cursor: pointer;
 }
 .rd{
   background-color: red;
@@ -121,4 +123,133 @@ nav button{
     justify-content: center;
     align-items: center;
     gap: 7px;
+}
+.boxes{
+    border-radius: 20px;
+    background: radial-gradient(ellipse at 0% 0,#1b1b5a 20%, #22041a );
+    padding:20px;
+    margin: 10px;
+    color: white;
+    font-size: 1.5rem;
+    width: 16vw;
+    font-weight: 500;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    height: 26vh;
+    margin:-6px auto;
+    padding: 69px 0px 0;
+}
+.boxes> :nth-child(1){
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a7a3a3;
+    padding-top: 19px;
+}
+.con-1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 34px;
+    left: 11vw;
+}
+.faq1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 59px;
+    left: 11vw;
+}
+.faqcontainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 69px 0px;
+}
+.faqbox{
+    color: white;
+    background-color:#2b2b2b;
+    padding: 10px;
+    margin: 3px;
+    width: 77vw;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 36px;
+    padding-top: 17px;
+    cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgb(81, 80, 80);
+}
+.hero2{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    top: -38px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 23px;
+}
+.hero2 input{
+    background-color: rgba(23,23,23,0.7);
+    color: white;
+    border-radius: 5px;
+    padding: 11px 350px 14px 18px;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid rgba(248, 247, 247, 0.3);
+    font-weight: 500;
+}
+.faqbox svg{
+    height: 38px;
+    position: absolute;
+    left: 85vw;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer{
+    max-width: 80vw;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+.foot-box{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.foot-box a{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 5x;
+}
+.foot-con{
+    padding: 0px 0px 36px 3px;
+}
+.last{
+    margin: 51px 140px;
+}
+.end{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin: 10px 140px;
+}
+.end-1 {
+    padding: 25px 0px;
+    color: rgb(182 182 182 / 60%);
+}
+.end-1 a{
+    color: #8383fb;
 }
